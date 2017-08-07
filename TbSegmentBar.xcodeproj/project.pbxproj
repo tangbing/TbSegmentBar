@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332D12B91F35709E00622FDF /* TbSegmentBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332D12B81F35709E00622FDF /* TbSegmentBarViewController.m */; };
 		3373032A1F2E35D00050EAC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 337303291F2E35D00050EAC8 /* main.m */; };
 		3373032D1F2E35D10050EAC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373032C1F2E35D10050EAC8 /* AppDelegate.m */; };
 		337303301F2E35D10050EAC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373032F1F2E35D10050EAC8 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332D12B71F35709E00622FDF /* TbSegmentBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbSegmentBarViewController.h; sourceTree = "<group>"; };
+		332D12B81F35709E00622FDF /* TbSegmentBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbSegmentBarViewController.m; sourceTree = "<group>"; };
 		337303251F2E35D00050EAC8 /* TbSegmentBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TbSegmentBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337303291F2E35D00050EAC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3373032B1F2E35D10050EAC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				337303281F2E35D00050EAC8 /* Supporting Files */,
 				3373035B1F2E35EC0050EAC8 /* TbSegmentBar.h */,
 				3373035C1F2E35EC0050EAC8 /* TbSegmentBar.m */,
+				332D12B71F35709E00622FDF /* TbSegmentBarViewController.h */,
+				332D12B81F35709E00622FDF /* TbSegmentBarViewController.m */,
 			);
 			path = TbSegmentBar;
 			sourceTree = "<group>";
@@ -212,8 +217,9 @@
 		3373031D1F2E35D00050EAC8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Tb;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = Tb;
+				ORGANIZATIONNAME = com.aetos.trade;
 				TargetAttributes = {
 					337303241F2E35D00050EAC8 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -285,6 +291,7 @@
 			files = (
 				337303301F2E35D10050EAC8 /* ViewController.m in Sources */,
 				3373032D1F2E35D10050EAC8 /* AppDelegate.m in Sources */,
+				332D12B91F35709E00622FDF /* TbSegmentBarViewController.m in Sources */,
 				337303601F2E37560050EAC8 /* UIView+XMGSegmentBar.m in Sources */,
 				3373032A1F2E35D00050EAC8 /* main.m in Sources */,
 				3373035D1F2E35EC0050EAC8 /* TbSegmentBar.m in Sources */,
@@ -521,6 +528,7 @@
 				337303541F2E35D10050EAC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337303551F2E35D10050EAC8 /* Build configuration list for PBXNativeTarget "TbSegmentBarTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				337303571F2E35D10050EAC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337303581F2E35D10050EAC8 /* Build configuration list for PBXNativeTarget "TbSegmentBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +546,7 @@
 				3373035A1F2E35D10050EAC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
